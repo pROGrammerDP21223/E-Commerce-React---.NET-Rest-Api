@@ -103,8 +103,7 @@ This is a full-featured eCommerce web application built with **.NET Core (C#)** 
 {
   "Jwt": {
     "Key": "your_secret_key_here",
-    "Issuer": "yourdomain.com",
-    "Audience": "yourdomain.com"
+  
   }
 }
 ```
@@ -113,11 +112,13 @@ This is a full-featured eCommerce web application built with **.NET Core (C#)** 
 
 ## 📦 NuGet Packages Used
 
-- Microsoft.AspNetCore.Authentication.JwtBearer
-- BCrypt.Net-Next
-- AutoMapper
-- EntityFrameworkCore
-- Swashbuckle.AspNetCore (Swagger)
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.0
+dotnet add package Microsoft.Extensions.Configuration.Json --version 9.0.0
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 9.0.0
+
 
 ---
 
